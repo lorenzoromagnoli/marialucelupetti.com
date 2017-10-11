@@ -8,6 +8,8 @@ import cssnext from "postcss-cssnext";
 import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
+import less from "gulp-less";
+import path from "path";
 
 const browserSync = BrowserSync.create();
 
@@ -20,16 +22,25 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["css", "js"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["css", "js"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["less", "js"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["less", "js"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
-// Compile CSS with PostCSS
-gulp.task("css", () => (
-  gulp.src("./src/css/*.css")
-    .pipe(postcss([cssImport({from: "./src/css/main.css"}), cssnext()]))
-    .pipe(gulp.dest("./dist/css"))
-    .pipe(browserSync.stream())
-));
+// // Compile CSS with PostCSS
+// gulp.task("css", () => (
+//   gulp.src("./src/css/*.css")
+//     .pipe(postcss([cssImport({from: "./src/css/main.css"}), cssnext()]))
+//     .pipe(gulp.dest("./dist/css"))
+//     .pipe(browserSync.stream())
+// ));
+
+gulp.task('less', function () {
+	 	gulp.src('./src/less/main.less')
+    .pipe(less({
+      paths: [ path.join(__dirname, 'less', 'includes') ]
+    }))
+    .pipe(gulp.dest('./dist/css'))
+		.pipe(browserSync.stream());
+});
 
 // Compile Javascript
 gulp.task("js", (cb) => {
@@ -47,14 +58,14 @@ gulp.task("js", (cb) => {
 });
 
 // Development server with browsersync
-gulp.task("server", ["hugo", "css", "js"], () => {
+gulp.task("server", ["hugo", "less", "js"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
     }
   });
   gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./src/css/**/*.css", ["css"]);
+	gulp.watch("./src/less/**/*.less", ["less"]);
   gulp.watch("./site/**/*", ["hugo"]);
 });
 
