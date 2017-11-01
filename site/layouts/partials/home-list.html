@@ -1,0 +1,28 @@
+<div class="mainContent container">
+	{{ range .Data.Pages }} {{if eq .Params.featured "yes" }}
+	<div class="row">
+
+	<div class="portfolio_item column" data-aos="fade-up-right">
+			<a href="{{ .Permalink }}">
+
+				<div class="background-gradient">
+				</div>
+
+				<div class="background-img" style="background-image:url('/assets/img/{{.Params.image}}') ">
+				</div>
+
+				<div class="overlay">
+					<div class="title">
+						<h3>{{.Title}}</h3>
+					</div>
+					<div class="subtitle">
+						{{.Params.subtitle}}
+					</div>
+				</div>
+
+			</a>
+	</div>
+</div>
+
+	{{ end }} {{ end }}
+</div>
