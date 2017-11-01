@@ -1,7 +1,148 @@
-html{
-	body{
-	  font-family: sans-serif;
-	  font-size: 1em;
-	  text-align: center;
+@import "../../node_modules/milligram-less/dist/_Base";
+@import "../../node_modules/milligram-less/dist/_Grid";
+@import "../../node_modules/milligram-less/dist/_Color";
+// @import "../../node_modules/milligram-less/dist/_Typography";
+@import "../../node_modules/milligram-less/dist/_Utility";
+
+@gray: #D2D2D2;
+@white: #FFFFFF;
+@yellow: #FFFA87;
+@pink: #FDB7B7;
+@dark: #000002;
+@pink-shock: #FF63A6;
+@dark-blue:#637CFF;
+
+html {
+	body {
+		font-family: 'Work Sans', sans-serif;
+		font-size: 0.8em;
+		background: linear-gradient(-180deg, @gray 0%, white 100%);
+		color: @dark-blue;
 	}
+}
+
+//typography
+:root {
+  font-size: 112.5%; /* 18px */
+	//font-size: 100%; /* 16px */
+  @media screen and (mid-width: 40em) {
+    font-size: 80%;
+  }
+
+  @media screen and (mid-width: 80em) {
+    font-size: 60%;
+  }
+}
+
+h1{
+	font-size: 1.4rem;
+	text-align: center;
+	font-weight: 400;
+}
+
+h2{
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+.main-nav li{
+	font-size: 1.77rem;
+	text-align: center;
+}
+
+a{
+	color: @pink-shock;
+	font-weight: bold;
+}
+
+.container{
+	max-width: 720px;
+}
+
+//the navbar
+#mainNav {
+	padding-top: 30px;
+	.navbar-brand {
+		text-decoration: none;
+		float: left;
+		margin-bottom: 50px;
+		color: @dark-blue;
+
+		.title,.subtitle{
+			text-decoration: none;
+			text-align: left;
+		}
+		.title{
+			font-weight: bold;
+			font-size: 1.5em;
+		}
+		.subtitle{
+			font-weight: lighter;
+			font-size: 1.3em;
+
+		}
+	}
+	.about {
+		float: right;
+	}
+}
+
+
+//the grid in home
+.portfolio_item {
+	height: 450px;
+	position: relative;
+	margin-top: 50px;
+
+	.background-gradient,
+	.background-img,
+	.overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		color: white;
+		padding: 50px;
+		transition: all .2s ease-in-out;
+	}
+
+	.background-gradient {
+		background: linear-gradient(-180deg, @pink 0%, @yellow 100%);
+	}
+
+	.background-img {
+		background-position: center;
+		background-size: cover;
+		opacity: 0.5;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.overlay{
+		opacity: .1;
+	}
+
+	&:hover {
+		.background-gradient {
+		}
+		.background-img {
+			margin-top:-10px;
+			margin-left:10px;
+		}
+		.overlay {
+			opacity: 1;
+		}
+	}
+}
+
+//footer
+.footer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.img-responsive{
+	max-width: 100%;
+}
+
+iframe{
+	max-width: 100%;
 }

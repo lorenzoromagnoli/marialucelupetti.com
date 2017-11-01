@@ -10,6 +10,8 @@ import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
 import less from "gulp-less";
 import path from "path";
+import responsive from "gulp-responsive";
+
 
 const browserSync = BrowserSync.create();
 
@@ -22,8 +24,8 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["less", "js"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["less", "js"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["less", "js", "images"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["less", "js", "images"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // // Compile CSS with PostCSS
 // gulp.task("css", () => (
@@ -57,8 +59,29 @@ gulp.task("js", (cb) => {
   });
 });
 
+//task for responsive images
+gulp.task('images', function () {
+  return gulp.src('src/img/*.{jpg,png}')
+    .pipe(responsive({
+			'*': {
+      }
+    }, {
+      // Global configuration for all images
+      // The output quality for JPEG, WebP and TIFF output formats
+      quality: 70,
+      // Use progressive (interlace) scan for JPEG and PNG output
+      progressive: true,
+      // Zlib compression level of PNG output format
+      compressionLevel: 6,
+      // Strip all metadata
+      withMetadata: false,
+    }))
+    .pipe(gulp.dest('dist/assets/img'));
+});
+
+
 // Development server with browsersync
-gulp.task("server", ["hugo", "less", "js"], () => {
+gulp.task("server", ["hugo", "less", "js", "images"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
@@ -67,6 +90,7 @@ gulp.task("server", ["hugo", "less", "js"], () => {
   gulp.watch("./src/js/**/*.js", ["js"]);
 	gulp.watch("./src/less/**/*.less", ["less"]);
   gulp.watch("./site/**/*", ["hugo"]);
+	gulp.watch("./src/img/**/*", ["images"]);
 });
 
 /**
