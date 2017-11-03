@@ -2,14 +2,13 @@
 	{{ range .Data.Pages }} {{if eq .Params.featured "yes" }}
 	<div class="row">
 
-	<div class="portfolio_item column" data-aos="fade-up-right">
+		<div class="portfolio_item column">
 			<a href="{{ .Permalink }}">
-
+				<div class="background-img" style="background-image:url('/assets/img/{{.Params.image}}') ">
+				</div>
 				<div class="background-gradient">
 				</div>
 
-				<div class="background-img" style="background-image:url('/assets/img/{{.Params.image}}') ">
-				</div>
 
 				<div class="overlay">
 					<div class="title">
@@ -21,8 +20,30 @@
 				</div>
 
 			</a>
+		</div>
 	</div>
-</div>
 
 	{{ end }} {{ end }}
+	<div class="row">
+
+		<div class="portfolio_item column">
+			<a href="/visuals">
+				<div class="background-img" style="background-image:url('/assets/img/map+protag.jpg') ">
+				</div>
+				<div class="background-gradient">
+				</div>
+
+				<div class="overlay">
+					<div class="title">
+						<h3>Some visual design works...</h3>
+					</div>
+					<div class="subtitle">
+						{{.Params.subtitle}}
+					</div>
+				</div>
+
+			</a>
+		</div>
+	</div>
+
 </div>

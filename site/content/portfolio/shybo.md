@@ -17,7 +17,7 @@ SHYBO is part of a research project about the theme of child-robot play, develop
 
 The aim of this research is to understand how technology is affecting the role of play in children’s everyday life and to define new meaningful scenarios of play. In particular, Shybo is designed to let children play with sound-color associations and to promote their own reasoning.
 
-<iframe src="https://player.vimeo.com/video/233640805" width="690" height="388" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/233640805" width="1024" height="526" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/233640805">Shybo Functioning</a> from <a href="https://vimeo.com/user66117537">Maria Luce Lupetti</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ![SHYBO components and design](/assets/img/shyboinside.jpg)
@@ -26,7 +26,7 @@ SHYBO’s current prototype consist of an Arduino Pro Mini board that take data 
 
 SHYBO enabled to design a playful learning experience focused on fundamentals of color theory. The experience includes the use of a board game and game cards, that requires to player to obtain certain colors on the robot by playing sounds. Since the robot has no preset color-sound associations, children have to train the robot before playing the game.
 
-<iframe src="https://player.vimeo.com/video/227591676" width="690" height="388" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/227591676">A playtest with Shybo.</a> from <a href="https://vimeo.com/user66117537">Maria Luce Lupetti</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="https://player.vimeo.com/video/227591676" width="1024" height="526" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/227591676">A playtest with Shybo.</a> from <a href="https://vimeo.com/user66117537">Maria Luce Lupetti</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
 Shybo is at the basis of an ongoing project called OpenAnimates. The project consists of playful learning activities with small robots, like Shybo, developed in collaboration with [Lorenzo Romagnoli] (http://lorenzoromagnoli.me), creative technologist, and Annalisa Gallo, manager of [10100 Percorsi] (https://10100percorsi.com). The idea is to extend the concept of trainable robots that guided the development of Shybo, for co-designing creative and playful learning experiences related to school's curricular program. The first experimental activity will be carried out at the end of November 2017, in Turin, Italy.

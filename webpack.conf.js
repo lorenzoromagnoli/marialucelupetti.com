@@ -24,14 +24,14 @@ export default {
     })
   ],
 
-  context: path.join(__dirname, "src"),
-  entry: {
-    app: ["./js/app"]
-  },
-  output: {
-    path: path.join(__dirname, "dist"),
-    publicPath: "/",
-    filename: "[name].js"
-  },
-  externals:  [/^vendor\/.+\.js$/]
+	context: path.join(__dirname, "src"),
+	entry: {
+		app: ["./js/app"]
+	},
+	output: {
+		path: path.join(__dirname, "dist"),
+		publicPath: "/js/",
+		filename: "[name].js"
+	},
+	externals: [/^vendor\/.+\.js$/]
 };
