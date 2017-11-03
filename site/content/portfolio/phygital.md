@@ -5,7 +5,7 @@ draft = false
 date = "2015-11-05T19:53:42+05:30"
 title = "Phygital Play"
 weight = 2
-width= 4
+width= 2
 category= "research"
 featured="yes"
 
@@ -14,10 +14,14 @@ featured="yes"
 
 <!--more-->
 
+
 This project focuses on the screen time issue, a growing phenomenon, which may cause an increase of health issues. A new gaming framework is proposed as a step forward in the virtual-physical contamination already largely addressed in research. The system consists of a projected playground, on which people and robot(s) can physically interact. The role of the robot is enhanced entrusting it different roles, from a companion, to an adversary, to the avatar of a remote player.
 
+
+
 The project was promoted by TIM, and developed in collaboration with Fabrizio Lamberti e Giovanni Piumatti, from DAUIN, Politecnico di Torino.
-![Three game concepts developed during the project. The first and the second were implemented.](../../img/3phygital.jpg)
+
+![phigital](/assets/img/3phygital.jpg)
 
 The Phygital Play gaming platform is a mixed-reality playground obtained combining a projector, two depth cameras (Microsoft Kinect v2.0) and commercial robots. The projector is used to display a virtual playground on the floor, while the depth cameras are used to track the position respectively of the players and the robots.
 
