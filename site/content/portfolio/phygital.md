@@ -25,7 +25,7 @@ The project was promoted by TIM, and developed in collaboration with Fabrizio La
 
 The Phygital Play gaming platform is a mixed-reality playground obtained combining a projector, two depth cameras (Microsoft Kinect v2.0) and commercial robots. The projector is used to display a virtual playground on the floor, while the depth cameras are used to track the position respectively of the players and the robots.
 
-<iframe src="https://player.vimeo.com/video/236459034" width="690" height="388" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/236459034" width="1024" height="526" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/236459034">Phygital Play</a> from <a href="https://vimeo.com/user66117537">Maria Luce Lupetti</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
