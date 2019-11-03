@@ -1,32 +1,209 @@
-/*
-  You can use import statements to include partials:
- */
-@import 'imports/reset.css';
+@import "./imports/milligram.min.css";
 
-/*
-  Or add your statements here:
- */
-body {
-  font-size: calc(10px + 1vmin);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-    'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: #282c34;
-  color: white;
+$gray: #D2D2D2;
+$white: #FFFFFF;
+$yellow: #FFFA87;
+$pink: #FDB7B7;
+$dark: #000002;
+$pink-shock: #FF63A6;
+$dark-blue:#637CFF;
+
+html {
+	body {
+		font-family: 'Work Sans', sans-serif;
+		font-size: 1rem;
+		//background: linear-gradient(-180deg, $gray 0%, white 100%);
+		color: $dark-blue;
+	}
 }
 
-a {
-  color: pink;
-  text-decoration: none;
+//typography
+:root {
+  font-size: 100%; /* 18px */
+	//font-size: 100%; /* 16px */
+  @media screen and (min-width: 40em) {
+    font-size: 110%;
+  }
+
+  @media screen and (min-width: 80em) {
+    font-size: 120%;
+  }
 }
 
-.content {
-  padding: 0 32px;
+h1{
+	font-size: 1.4rem;
+	text-align: center;
+	font-weight: 400;
+}
+
+h2{
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+h3{
+	font-size: 1.6rem;
+	text-align: left;
+	font-weight: bold;
+}
+
+.main-nav li{
+	font-size: 1.77rem;
+	text-align: center;
+}
+
+a{
+	color: $pink-shock;
+	font-weight: bold;
+}
+
+.container{
+	max-width: 1024px;
+	position: relative;
+	margin: auto;
+	height: auto;
+	display: block;
+}
+
+//the navbar
+#mainNav {
+	padding-top: 30px;
+	margin-top: 100px;
+	.navbar-brand {
+		text-decoration: none;
+		float: left;
+		margin-bottom: 50px;
+		color: $dark-blue;
+
+		.title,.subtitle{
+			text-decoration: none;
+			text-align: left;
+		}
+		.title{
+			font-weight: bold;
+			font-size: 1.5em;
+		}
+		.subtitle{
+			font-weight: lighter;
+			font-size: 1.3em;
+
+		}
+	}
+	.about {
+		float: right;
+	}
+}
+
+
+//the grid in home
+.portfolio_item {
+	height: 600px;
+	position: relative;
+	margin-top: 50px;
+
+	.background-gradient,
+	.background-img,
+	.overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		color: white;
+		transition: all .2s ease-in-out;
+	}
+
+	.background-gradient {
+		background: linear-gradient(-180deg, $pink 0%, $yellow 100%);
+		opacity: .5;
+	}
+
+	.background-img {
+		background-position: center;
+		background-size: cover;
+		opacity: 1;
+		margin-top: 0px;
+		margin-left: 0px;
+
+	}
+	.overlay{
+		opacity: .1;
+		padding: 50px;
+	}
+
+	&:hover {
+		.background-gradient {
+			margin-left: 10px;
+			opacity: .5
+		}
+		.background-img {
+			 margin-top:-10px;
+			 margin-left:10px;
+
+		}
+		.overlay {
+			opacity: 1;
+			color: $white;
+			margin-left: 10px;
+		}
+	}
+}
+
+//footer
+.footer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.img-responsive{
+	max-width: 100%;
+}
+
+iframe{
+	max-width: 100%;
+}
+
+img{
+	max-width: 100%;
+}
+
+//for the visuals grid
+
+.grid{
+	width: 100%;
+	position: relative;
+	height: 100%;
+	display:block;
+}
+.grid-item {
+	float: left;
+	width: 25%;
+	position: relative;
+	padding:10px;
+
+	.overlay.info{
+		padding: 40px;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top:0px;
+		left: 0px;
+		opacity: 0;
+		background-blend-mode: multiply;
+		transition: all .5s;
+		&:hover{
+			opacity: 1;
+		}
+	}
+
+	&.grid-item-2{
+		width: 50%;
+	}
+
+	&.grid-item-2{
+		width: 75%;
+	}
+
+	&.grid-item-4{
+		width: 100%;
+	}
 }

@@ -1,0 +1,26 @@
+<div class="container">
+	<div class="row" id="about-box">
+		<div class="column">
+
+			<div class="grid">
+				{{range .Params.works}}
+				<div class="grid-item grid-item-{{.size}}" data-aos="fade-up-right">
+					 <img src="/img/{{.image}}" />
+					<div class="overlay info">
+						<div class="title">
+							<h3>{{.name}}</h3>
+						</div>
+
+						<!--
+						<div class="subtitle">
+							{{.subtitle}}
+						</div> -->
+
+					</div>
+				</div>
+				{{end}}
+			</div>
+		</div>
+	</div>
+
+</div>

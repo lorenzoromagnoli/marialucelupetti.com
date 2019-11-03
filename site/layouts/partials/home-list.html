@@ -1,0 +1,51 @@
+<div class="mainContent container">
+	{{ range .Site.Pages }}
+	{{if eq .Params.featured "yes" }}
+	<div class="row">
+
+		<div class="portfolio_item column">
+			<a href="{{ .Permalink }}">
+				<div class="background-img" style="background-image:url('/img/{{.Params.image}}') ">
+				</div>
+				<div class="background-gradient">
+				</div>
+
+
+				<div class="overlay">
+					<div class="title">
+						<h3>{{.Title}}</h3>
+					</div>
+					<div class="subtitle">
+						{{.Params.subtitle}}
+					</div>
+				</div>
+
+			</a>
+		</div>
+	</div>
+
+	{{ end }}
+	{{ end }}
+	<div class="row">
+
+		<div class="portfolio_item column">
+			<a href="/visuals">
+				<div class="background-img" style="background-image:url('/img/map+protag.jpg') ">
+				</div>
+				<div class="background-gradient">
+				</div>
+
+				<div class="overlay">
+					<div class="title">
+						<h3>Some visual design works...</h3>
+					</div>
+					<div class="subtitle">
+						{{.Params.subtitle}}
+					</div>
+				</div>
+
+			</a>
+		</div>
+	</div>
+
+</div>

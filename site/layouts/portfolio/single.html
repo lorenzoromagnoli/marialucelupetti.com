@@ -1,0 +1,33 @@
+
+{{ define "main" }}
+<div class="container">
+
+	<div class="row">
+		<div class="column">
+
+			<div id="project-header" class="fill" data-aos="fade-up-right">
+				<img src="/img/{{.Params.image}}" class="img-responsive">
+
+			</div>
+
+			<div class="attributes">
+				<h3 class="title">{{.Title}}</h3>
+				<div class="year">
+					<span class="date">{{ .Date.Format "2006" }}</span>
+				</div>
+				<div class="tags">
+					<span class="tag">{{ .Params.categoty }}</span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			{{.Content}}
+		</div>
+	</div>
+</div>
+
+{{ end }}
