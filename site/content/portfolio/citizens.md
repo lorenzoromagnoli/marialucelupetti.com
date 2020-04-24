@@ -4,7 +4,7 @@ image : "overview.png"
 showonlyimage : false
 date : "2018-11-05T20:02:19+05:30"
 title : "Things as citizens"
-weight : 1
+weight : 2
 width: 4
 category: "research"
 featured: "yes"
