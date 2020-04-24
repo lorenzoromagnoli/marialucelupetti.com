@@ -4,7 +4,7 @@ showonlyimage : false
 draft : false
 date : "2020-02-05T19:53:42+05:30"
 title : "MLTK01"
-weight : 2
+weight : 1
 width: 4
 category: "research"
 featured: "yes"
