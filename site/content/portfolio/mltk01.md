@@ -1,5 +1,5 @@
 ---
-image : "shybo.jpg"
+image : "mltk01.jpg"
 showonlyimage : false
 draft : false
 date : "2017-11-05T19:53:42+05:30"
