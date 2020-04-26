@@ -19,20 +19,18 @@ name="logo"
 size=3
 
 [[works]]
+image="seiapp.jpg"
+name="brand"
+size=2
+
+[[works]]
 image="map+protag.jpg"
 name="data viz"
 size=2
 
-
-
 [[works]]
 image="dronitaly.jpg"
 name="adv"
-size=2
-
-[[works]]
-image="seiapp.jpg"
-name="brand"
 size=2
 
 [[works]]
