@@ -6,18 +6,22 @@ layout="visuals-grid"
 [[works]]
 image="map+protag.jpg"
 name="Design in HRI"
-size=4
+size=3
+[[works]]
+image="map+protag.jpg"
+name="la madia"
+size=1
 [[works]]
 image="seiapp2.jpg"
-name="SEI app main architecture"
-size=4
+name="SEI app"
+size=3
 [[works]]
 image="dronitaly.jpg"
-name="TIM advertisement for Dronitaly"
+name="TIM advertisement"
 size=2
 [[works]]
 image="hotblack.jpg"
-name="HotBlack Robotics business cards"
+name="HotBlack Robotics BC"
 size=3
 [[works]]
 image="seiapp.jpg"
@@ -29,7 +33,7 @@ name="Arca di Noè 2.0 logo"
 size=3
 [[works]]
 image="hri17.jpg"
-name="HRI 2017 Pioneers logo"
+name="HRI'17 Pioneers logo"
 size=3
 [[works]]
 image="toolkit.jpg"
@@ -37,18 +41,18 @@ name="Toolkit for activities with children"
 size=4
 [[works]]
 image="hotblack2.jpg"
-name="HotBlack Robotics logo"
+name="HotBlack Robotics"
 size=2
 [[works]]
 image="centrorivo.jpg"
-name="Centro Veterinario del Rivo logo and applications"
+name="Centro Veterinario del Rivo
 size=2
 [[works]]
 image="weshare.jpg"
-name="We-Share Logo and illustration"
+name="We-Share"
 [[works]]
 image="centrorivo2.jpg"
-name="Centro Veterinario del Rivo window stickers"
+name="Centro Veterinario del Rivo"
 +++
 
 From 2012 onwards, I've been doing some freelance work, mainly related to visual design. Here is illustrated a mix of pictures extracted from the main works.
