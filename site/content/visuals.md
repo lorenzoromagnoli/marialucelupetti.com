@@ -14,6 +14,11 @@ name="brand"
 size=1
 
 [[works]]
+image=""
+name=""
+size=1
+
+[[works]]
 image="hri17.jpg"
 name="logo"
 size=1
