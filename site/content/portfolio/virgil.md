@@ -1,10 +1,10 @@
 ---
-image : "virgil.jpg"
+image : "virgil1.png"
 showonlyimage : false
 date : "2015-11-05T19:57:40+05:30"
 title : "Virgil"
-draft : true
-weight : 3
+draft : false
+weight : 6
 width: 4
 category: "research"
 featured: "yes"
@@ -13,11 +13,9 @@ featured: "yes"
 
 <!--more-->
 
-This project focuses on the issue of inaccessibility in Cultural Heritage, due to lack of restoration and safety. The project has been developed for a specific context, the Royal Residence of Racconigi Castle, in Italy, where around 60% of the areas are excluded from the tour route. The proposed service allows visitors to explore remotely the inaccessible areas through Virgil, a mobile robotic platform tele-operated by the Museum Guide who is also entrusted of the cultural storytelling activity.
+This project focuses on the issue of inaccessibility in Cultural Heritage, due to lack of restoration and safety. The project has been developed for a specific context, the Royal Residence of Racconigi Castle, in Italy, where around 60% of the areas are excluded from the tour route. Virgil allows visitors to explore remotely the inaccessible areas through Virgil, a telepresence robot operated by a museum guide who remains responsible for the cultural storytelling activity.
 
-The project was promoted by TIM and developed in collaboration with Terre dei Savoia association.
-
-<iframe width="690" height="388" src="https://www.youtube.com/embed/mSSGkYQSlHM" frameborder:"0" allowfullscreen></iframe>
+The project was promoted by TIM, as part of the Jol CRAB Lab activities, and developed as a collaboration between the Depertment of Architecture and Design and the Department of Mechanical and Aerospace Engineer, at Politecnico di Torino, with  Terre dei Savoia association. As part of this multidisciplinary research group, I focused on the analysis of the context and the actors involved, I contributed to setting design requirements, developing concepts of the robotic service and related experience and running the tests at the Castle.
 
 
 Publications about the project:
