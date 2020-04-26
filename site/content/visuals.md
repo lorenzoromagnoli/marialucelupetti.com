@@ -14,7 +14,7 @@ name="brand"
 size=1
 
 [[works]]
-image=""
+image="blank-01.png"
 name=""
 size=1
 
