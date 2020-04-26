@@ -9,9 +9,9 @@ name="UI"
 size=2
 
 [[works]]
-image="hotblack.jpg"
-name="brand"
-size=1
+image="hri17.jpg"
+name="logo"
+size=1 
 
 [[works]]
 image="blank-01.png"
@@ -19,8 +19,13 @@ name=""
 size=1
 
 [[works]]
-image="hri17.jpg"
-name="logo"
+image="hotblack.jpg"
+name="brand"
+size=1
+
+[[works]]
+image="blank-01.png"
+name=""
 size=1
 
 [[works]]
