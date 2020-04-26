@@ -54,6 +54,11 @@ name="toolkit"
 size=4
 
 [[works]]
+image="blank-01.png"
+name=""
+size=1
+
+[[works]]
 image="hotblack2.jpg"
 name="brand"
 size=2
