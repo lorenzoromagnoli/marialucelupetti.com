@@ -1,5 +1,5 @@
 ---
-image : "virgil1.png"
+image : "virgil.png"
 showonlyimage : false
 date : "2015-11-05T19:57:40+05:30"
 title : "Virgil"
