@@ -8,7 +8,7 @@ image="map+protag.jpg"
 name="Design in HRI"
 size=3
 [[works]]
-image="map+protag.jpg"
+image="lamadia.jpg"
 name="la madia"
 size=1
 [[works]]
