@@ -9,14 +9,21 @@ name="UI"
 size=2
 
 [[works]]
+image="hotblack.jpg"
+name="brand"
+size=3
+
+[[works]]
+image="hri17.jpg"
+name="logo"
+size=3
+
+[[works]]
 image="map+protag.jpg"
 name="data viz"
 size=2
 
-[[works]]
-image="hotblack.jpg"
-name="brand"
-size=3
+
 
 [[works]]
 image="dronitaly.jpg"
@@ -31,11 +38,6 @@ size=2
 [[works]]
 image="arcaLogo.jpg"
 name="brand"
-size=3
-
-[[works]]
-image="hri17.jpg"
-name="logo"
 size=3
 
 [[works]]
