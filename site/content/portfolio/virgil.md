@@ -23,6 +23,8 @@ The user interfece of the robot, developed as a web app that a museum guide can 
 
 The project was promoted by TIM, as part of the Jol CRAB Lab activities, and developed as a collaboration between the Depertment of Architecture and Design and the Department of Mechanical and Aerospace Engineer, at Politecnico di Torino, with  Terre dei Savoia association. As part of this multidisciplinary research group, I focused on the analysis of the context and the actors involved, I contributed to setting design requirements, developing concepts of the robotic service and related experience and running the tests at the Castle.
 
+<p><a href="https://www.youtube.com/watch?v=8_Y1gduXhMs&feature=emb_title">Virgil</a> from <a href="https://www.youtube.com/watch?v=8_Y1gduXhMs&feature=emb_title">Jol CRAB Lab</a>.</p>
+
 
 
 
