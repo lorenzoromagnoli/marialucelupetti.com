@@ -4,13 +4,18 @@ type="page"
 layout="visuals-grid"
 
 [[works]]
+image="seiapp2.jpg"
+name="UI"
+size=2
+
+[[works]]
 image="map+protag.jpg"
 name="data viz"
 size=2
 
 [[works]]
-image="seiapp2.jpg"
-name="UI"
+image="hotblack.jpg"
+name="brand"
 size=3
 
 [[works]]
@@ -19,17 +24,15 @@ name="adv"
 size=2
 
 [[works]]
-image="hotblack.jpg"
-name="brand"
-size=3
-[[works]]
 image="seiapp.jpg"
 name="brand"
 size=2
+
 [[works]]
 image="arcaLogo.jpg"
 name="brand"
 size=3
+
 [[works]]
 image="hri17.jpg"
 name="logo"
