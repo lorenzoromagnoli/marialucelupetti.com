@@ -14,7 +14,7 @@ name="UI"
 size=3
 [[works]]
 image="dronitaly.jpg"
-name="TIM advertisement"
+name="adv"
 size=2
 [[works]]
 image="hotblack.jpg"
