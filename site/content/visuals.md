@@ -11,12 +11,12 @@ size=2
 [[works]]
 image="hotblack.jpg"
 name="brand"
-size=3
+size=1
 
 [[works]]
 image="hri17.jpg"
 name="logo"
-size=3
+size=1
 
 [[works]]
 image="seiapp.jpg"
