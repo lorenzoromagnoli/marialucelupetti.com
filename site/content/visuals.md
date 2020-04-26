@@ -6,11 +6,8 @@ layout="visuals-grid"
 [[works]]
 image="map+protag.jpg"
 name="Ddata viz"
-size=3
-[[works]]
-image="lamadia.jpg"
-name="brand"
-size=1
+size=2
+
 [[works]]
 image="seiapp2.jpg"
 name="UI"
