@@ -24,14 +24,19 @@ name="brand"
 size=1
 
 [[works]]
+image="seiapp.jpg"
+name="brand"
+size=2
+
+[[works]]
 image="blank-01.png"
 name=""
 size=1
 
 [[works]]
-image="seiapp.jpg"
-name="brand"
-size=3
+image="blank-01.png"
+name=""
+size=1
 
 [[works]]
 image="map+protag.jpg"
