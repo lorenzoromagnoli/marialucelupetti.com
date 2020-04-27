@@ -61,7 +61,7 @@ size=1
 [[works]]
 image="hotblack2.jpg"
 name="brand"
-size=3
+size=2
 
 [[works]]
 image="centrorivo.jpg"
