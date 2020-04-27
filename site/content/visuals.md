@@ -44,12 +44,12 @@ name="toolkit"
 size=4
 
 [[works]]
-image="hotblack.jpg"
+image="hotblack2.jpg"
 name="brand"
 size=1
 
 [[works]]
-image="hotblack2.jpg"
+image="hotblack.jpg"
 name="brand"
 size=2
 
