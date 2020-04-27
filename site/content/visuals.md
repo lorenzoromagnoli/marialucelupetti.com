@@ -29,19 +29,14 @@ name="data viz"
 size=4
 
 [[works]]
-image="blank-01.png"
-name=""
-size=1
+image="dronitaly.jpg"
+name="adv"
+size=2
 
 [[works]]
 image="hri17.jpg"
 name="logo"
 size=1
-
-[[works]]
-image="dronitaly.jpg"
-name="adv"
-size=2
 
 [[works]]
 image="toolkit.jpg"
