@@ -44,11 +44,6 @@ name="toolkit"
 size=4
 
 [[works]]
-image="blank-01.png"
-name=""
-size=1
-
-[[works]]
 image="hotblack.jpg"
 name="brand"
 size=1
@@ -57,6 +52,11 @@ size=1
 image="hotblack2.jpg"
 name="brand"
 size=2
+
+[[works]]
+image="blank-01.png"
+name=""
+size=1
 
 [[works]]
 image="centrorivo.jpg"
