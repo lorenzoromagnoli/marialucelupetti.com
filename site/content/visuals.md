@@ -39,11 +39,6 @@ name="brand"
 size=2
 
 [[works]]
-image="blank-01.png"
-name=""
-size=1
-
-[[works]]
 image="map+protag.jpg"
 name="data viz"
 size=4
