@@ -11,12 +11,12 @@ size=3
 [[works]]
 image="hri17.jpg"
 name="logo"
-size=3
+size=1
 
 [[works]]
 image="blank-01.png"
 name=""
-size=3
+size=1
 
 [[works]]
 image="hotblack.jpg"
