@@ -14,12 +14,12 @@ name="logo"
 size=1
 
 [[works]]
-image="blank-01.png"
-name=""
-size=0.5
+image="hotblack.jpg"
+name="brand"
+size=1
 
 [[works]]
-image="hotblack.jpg"
+image="arcaLogo.jpg"
 name="brand"
 size=1
 
@@ -27,11 +27,6 @@ size=1
 image="seiapp.jpg"
 name="brand"
 size=2
-
-[[works]]
-image="arcaLogo.jpg"
-name="brand"
-size=1
 
 [[works]]
 image="blank-01.png"
