@@ -6,17 +6,7 @@ layout="visuals-grid"
 [[works]]
 image="seiapp2.jpg"
 name="UI"
-size=3
-
-[[works]]
-image="hri17.jpg"
-name="logo"
-size=1
-
-[[works]]
-image="hotblack.jpg"
-name="brand"
-size=1
+size=4
 
 [[works]]
 image="blank-01.png"
@@ -44,8 +34,8 @@ name="data viz"
 size=4
 
 [[works]]
-image="blank-01.png"
-name=""
+image="hri17.jpg"
+name="logo"
 size=1
 
 [[works]]
@@ -66,6 +56,11 @@ size=3
 [[works]]
 image="blank-01.png"
 name=""
+size=1
+
+[[works]]
+image="hotblack.jpg"
+name="brand"
 size=1
 
 [[works]]
