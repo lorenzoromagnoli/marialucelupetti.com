@@ -46,12 +46,12 @@ size=4
 [[works]]
 image="hotblack2.jpg"
 name="brand"
-size=1
+size=2
 
 [[works]]
 image="hotblack.jpg"
 name="brand"
-size=2
+size=1
 
 [[works]]
 image="blank-01.png"
