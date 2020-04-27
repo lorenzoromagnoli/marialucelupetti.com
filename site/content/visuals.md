@@ -19,13 +19,13 @@ name="brand"
 size=1
 
 [[works]]
-image="arcaLogo.jpg"
-name="brand"
+image="blank-01.png"
+name=""
 size=1
 
 [[works]]
-image="blank-01.png"
-name=""
+image="arcaLogo.jpg"
+name="brand"
 size=1
 
 [[works]]
