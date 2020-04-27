@@ -14,11 +14,6 @@ name=""
 size=1
 
 [[works]]
-image="blank-01.png"
-name=""
-size=1
-
-[[works]]
 image="arcaLogo.jpg"
 name="brand"
 size=1
@@ -34,13 +29,13 @@ name="data viz"
 size=4
 
 [[works]]
-image="hri17.jpg"
-name="logo"
+image="blank-01.png"
+name=""
 size=1
 
 [[works]]
-image="blank-01.png"
-name=""
+image="hri17.jpg"
+name="logo"
 size=1
 
 [[works]]
@@ -51,7 +46,7 @@ size=2
 [[works]]
 image="toolkit.jpg"
 name="toolkit"
-size=3
+size=4
 
 [[works]]
 image="blank-01.png"
