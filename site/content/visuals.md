@@ -74,4 +74,4 @@ name="brand"
 size=1
 +++
 
-From 2012 onwards, I've been doing some freelance work, mainly related to visual design. Here is illustrated a mix of pictures extracted from the main works.
+From 2012 onwards, I've been doing some freelance work, mainly visual design stuff. Here is a mix of pictures extracted from the main works.
