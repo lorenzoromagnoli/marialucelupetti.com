@@ -24,6 +24,11 @@ name="brand"
 size=1
 
 [[works]]
+image="blank-01.png"
+name=""
+size=1
+
+[[works]]
 image="seiapp.jpg"
 name="brand"
 size=2
@@ -34,14 +39,14 @@ name=""
 size=1
 
 [[works]]
+image="map+protag.jpg"
+name="data viz"
+size=4
+
+[[works]]
 image="blank-01.png"
 name=""
 size=1
-
-[[works]]
-image="map+protag.jpg"
-name="data viz"
-size=3
 
 [[works]]
 image="dronitaly.jpg"
