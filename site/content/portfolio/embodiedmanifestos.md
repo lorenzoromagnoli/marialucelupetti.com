@@ -16,4 +16,4 @@ My current work at [AiTech](https://www.tudelft.nl/aitech/projects/embodied-mani
 
 I am currently developing a first case study of Research through Embodied Manifestos for exploring narratives of driving automation and enabling an analysis of ethical reasoning about it. This project is being developed in collaboration with Elisa Giaccardi (IDE TU Delft), David Abbink (3ME TU Delft), Luciano Cavalcante Siebert (EWI TU Delft) and Ibo van de Poel (TPM TU Delft).
 
-###### A brief overview of this work has been recently presented as a [poster](https://speculativeedu.wordpress.com/posters/) during the "Speculative and Critical Design in Education: Practice and Perspectives" Workshop at DIS 2020.
+##### A brief overview of this work has been recently presented as a [poster](https://speculativeedu.wordpress.com/posters/) during the "Speculative and Critical Design in Education: Practice and Perspectives" Workshop at DIS 2020.
