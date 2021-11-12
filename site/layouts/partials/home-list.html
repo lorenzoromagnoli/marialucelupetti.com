@@ -1,8 +1,8 @@
-<div class="mainContent container">
+<div class="mainContent container flex-grid">
 	{{ range .Data.Pages }} {{if eq .Params.featured "yes" }}
-	<div class="row">
+	<!--<div class="row">-->
 
-		<div class="portfolio_item column">
+		<div class="portfolio_item ">
 			<a href="{{ .Permalink }}">
 				<div class="background-img" style="background-image:url('/assets/img/{{.Params.image}}') ">
 				</div>
@@ -20,7 +20,7 @@
 				</div>
 
 			</a>
-		</div>
+		<!--</div>-->
 	</div>
 
 	{{ end }} {{ end }}
