@@ -1,0 +1,264 @@
+@import "./imports/milligram.min.css";
+
+
+$gray: #D2D2D2;
+$white: #FFFFFF;
+$yellow: #FFFA87;
+$pink: #FDB7B7;
+$dark: #000002;
+$pink-shock: #FF63A6;
+$dark-blue: #637CFF;
+
+html {
+	body {
+		font-family: 'Cormorant', serif;
+		font-size: 1rem;
+		//background: linear-gradient(-180deg, $gray 0%, white 100%);
+		color: $dark-blue;
+	}
+}
+
+//typography
+:root {
+  font-size: 100%; /* 18px */
+	//font-size: 100%; /* 16px */
+  @media screen and (min-width: 40em) {
+    font-size: 110%;
+  }
+
+  @media screen and (min-width: 80em) {
+    font-size: 120%;
+  }
+}
+
+h1{
+	font-size: 1.4rem;
+	text-align: center;
+	font-weight: 400;
+}
+
+h2{
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+h3{
+	font-size: 1.6rem;
+	text-align: left;
+	font-weight: bold;
+}
+
+h5{
+	font-size: 0.7rem;
+	text-align: left;
+}
+
+.main-nav li{
+	font-size: 1.77rem;
+	text-align: center;
+	display: inline;
+	float: right;
+	padding: 0px 0px 0px 31px;
+}
+
+.separator{
+	border-bottom: 2px solid pink;
+	margin: 1rem !important;
+}
+
+a{
+	color: $pink-shock;
+	font-weight: bold;
+}
+
+.big{
+	font-family: Cormorant;
+	font-size: 72px;
+}
+
+.weird-text{
+	font-family: barriecito;
+	color:yellow
+}
+
+.container{
+	//max-width: 1024px;
+	position: relative;
+	margin: auto;
+	height: auto;
+	display: block;
+}
+
+.fullHeight{
+	height: 100vh;
+}
+
+.vCentered{
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+//the navbar
+#mainNav {
+	padding-top: 30px;
+	margin-top: 0px;
+	.navbar-brand {
+		text-decoration: none;
+		float: left;
+		color: dark-blue;
+		font-family: IBM Plex Sans;
+
+		.title,.subtitle{
+			text-decoration: none;
+			text-align: left;
+		}
+		.title{
+			font-weight: bold;
+			font-size: 1em;
+		}
+		.subtitle{
+			font-weight: lighter;
+			font-size: 1.3em;
+
+		}
+	}
+	.about {
+		float: right;
+	}
+
+	.menu{
+		a{
+			text-align: right;
+			font-family: IBM Plex Sans;
+			font-size: 1em;
+
+		}
+	}
+}
+
+
+//the grid in home
+.flex-grid{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.portfolio_item {
+	width: 24rem;
+	height: 15rem;
+	position: relative;
+	margin: 1rem 0px;
+
+	.background-gradient,
+	.background-img,
+	.overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		color: white;
+		transition: all .2s ease-in-out;
+	}
+
+	.background-gradient {
+		background: linear-gradient(-180deg, $pink 0%, $yellow 100%);
+		opacity: .5;
+	}
+
+	.background-img {
+		background-position: center;
+		background-size: cover;
+		opacity: 1;
+		margin-top: 0px;
+		margin-left: 0px;
+
+	}
+	.overlay{
+		opacity: .1;
+		padding: 50px;
+	}
+
+	&:hover {
+		.background-gradient {
+			margin-left: 10px;
+			opacity: .5
+		}
+		.background-img {
+			 margin-top:-10px;
+			 margin-left:10px;
+
+		}
+		.overlay {
+			opacity: 1;
+			color: $white;
+			margin-left: 10px;
+		}
+	}
+}
+
+//footer
+.footer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.img-responsive{
+	max-width: 100%;
+}
+
+iframe{
+	max-width: 100%;
+}
+
+img{
+	max-width: 100%;
+}
+
+//for the visuals grid
+
+.grid{
+	width: 100%;
+	position: relative;
+	height: 100%;
+	display:block;
+}
+.grid-item {
+	float: left;
+	width: 25%;
+	position: relative;
+	padding:10px;
+
+	.overlay.info{
+		padding: 40px;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top:0px;
+		left: 0px;
+		opacity: 0;
+		background-blend-mode: multiply;
+		transition: all .5s;
+		&:hover{
+			opacity: 1;
+		}
+	}
+	
+	&.grid-item-1{
+		width: 25%;
+	}
+
+	&.grid-item-2{
+		width: 50%;
+	}
+
+	&.grid-item-3{
+		width: 75%;
+	}
+
+	&.grid-item-4{
+		width: 100%;
+	}
+}
