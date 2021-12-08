@@ -19,4 +19,8 @@ My current work at [AiTech](https://www.tudelft.nl/aitech/projects/embodied-mani
 
 I explored the potentials and challenges of conducting Research through Critical Design within the project Embodied Manifestos of Driving Automation. The aim of the project was to explore narratives of driving automation and enabling an analysis of ethical, as well as practical, reasoning about it. This project has been developed in collaboration with Elisa Giaccardi (IDE TU Delft), David Abbink (3ME TU Delft), Luciano Cavalcante Siebert (EWI TU Delft) and Niek Bekers (3ME TU Delft).
 
+![Focus groups with Embodied Manifestos](/img/focus group 3-07.jpg)
+##### In this picture: some pictures from the focus group sessions where I made use of the Embodied Manifestos to promote discussions among potential stakeholders about driving automation.
+
+
 ##### A brief overview of this work has been recently presented as a [poster](https://speculativeedu.wordpress.com/posters/) during the "Speculative and Critical Design in Education: Practice and Perspectives" Workshop at DIS 2020.
