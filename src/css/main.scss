@@ -65,7 +65,7 @@ h5{
 }
 
 .separator{
-	border-bottom: 2px solid dark-blue;
+	border-bottom: 2px solid $dark-blue;
 	margin: 1rem !important;
 }
 
@@ -76,6 +76,7 @@ a{
 
 
 .big{
+	color: $dark-blue;
 	font-family: Cormorant;
 	font-size: 72px;
 	
