@@ -23,7 +23,7 @@ html {
 	//font-size: 100%; /* 16px */
   @media screen and (min-width: 40em) {
     font-size: 110%;
-	  color: $dark-blue;
+	  color: dark-blue;
   }
 
   @media screen and (min-width: 80em) {
@@ -70,7 +70,7 @@ h5{
 }
 
 a{
-	color: $pink-shock;
+	color: $dark-blue;
 	font-weight: bold;
 }
 
@@ -78,13 +78,13 @@ a{
 .big{
 	font-family: Cormorant;
 	font-size: 72px;
-	color: $dark-blue;
+	
 }
 
 .weird-text{
 	font-family: barriecito;
 	color:yellow
-		color: $dark-blue;
+		
 }
 
 .container{
