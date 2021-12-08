@@ -17,8 +17,7 @@ MLTK01 is a toolkit for prototyping tangible learning things. It allows to cut o
 The toolkit is developed combining hardware and software from two existing open source tools: Arduino and ml5js, an easy-to-use tool that enable to play and customize a library of machine learning algorithms examples. The two are combined into a dedicated PCB that, extending the capabilities of an Arduino Nano, functions also as tangible interface and allows to easily plug, setup, train and play machine learning sketches.
 The aim is to allow designers to easily develop projects integrating ML abilities, moving the focus of the design activities from technical implementation issue to interaction qualities. In particular, we aim at facilitating critical reflections and provocations on how, why and with what consequences we may train ML models embodied into tangible artefacts.
 
-<iframe src="https://vimeo.com/654463896" width="1024" height="526" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/233640805">MLTK01 presentation at IASDR2021</a> from <a href="https://vimeo.com/user66117537">Maria Luce Lupetti</a> on <a href:"https://vimeo.com">Vimeo</a>.</p>
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/654463896?h=946aaf31ad&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="MLTK01.presentation 720.mov"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 The toolkit, that is being developed in collaboration with [Lorenzo Romagnoli](https://www.lorenzoromagnoli.me/) who is in charge of the technical implementation, will be mostly used in design education.
 
