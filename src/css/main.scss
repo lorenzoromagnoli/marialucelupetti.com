@@ -166,10 +166,9 @@ p{
 }
 
 .portfolio_item {
-	width: 24rem;
 	height: 15rem;
 	position: relative;
-	margin: 1rem 0px;
+	//margin: 1rem 0px;
 
 	.background-gradient,
 	.background-img,
@@ -196,7 +195,7 @@ p{
 	}
 	.overlay{
 		opacity: .1;
-		padding: 50px;
+		//padding: 50px;
 	}
 
 	&:hover {
